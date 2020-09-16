@@ -11,10 +11,9 @@ def studentAuthe():
         print("the username and password you enter is incorrect")
 
 def teacherAuthe():
-    pass
-    print('hello ba teacher')
     teacherID = input("Please enter teacher ID: > ")
     teachPasswd = input("Now enter your password: > ")
+    teacherDB = { 1234:'Pass1', 5678:'Pass2', 91011:'Pass3', 121314:'Pass4'}
 
 def studentView(studentID):
     print("hello")
