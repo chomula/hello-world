@@ -1,6 +1,9 @@
 #this is a simple program written in python
-#function to authenticate the student
+import MySQLdb
+import math
+import random
 
+#function to authenticate the student
 def studentAuthe():
     studID = input("Please enter student ID: > ")
     studPassword = input("Now enter your password: > ")
